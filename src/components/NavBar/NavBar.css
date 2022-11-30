@@ -1,0 +1,33 @@
+.contenedor-NavBar {
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+    height: 85px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: black;
+    border-width: 2px;
+    min-width: 100%;
+    position: fixed;
+    background-color: rgb(17, 44, 117);
+    z-index: 20;
+}
+
+.btn-NavBar {
+    background-color: white;
+    border-color: black;
+    border-width: 2px;
+    width: 85px;
+    border-radius: 5px;
+}
+
+.logo{
+    border-radius: 10px;
+}
+
+.imagenPerfil{
+    width: 80px;
+    height: 74px;
+
+}

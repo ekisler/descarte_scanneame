@@ -1,0 +1,12 @@
+.container-card {
+    width: 30%;
+    height: 20%;
+    border-width: 10px;
+    font-size: 2rem;
+    background-color: rgba(186, 230, 216, 0.976);
+}
+
+.Imagen-card{
+    height: auto;
+    width: 100%;
+}

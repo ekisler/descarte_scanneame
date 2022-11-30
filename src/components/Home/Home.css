@@ -1,0 +1,60 @@
+.contenedor {
+    margin: 0;
+}
+
+.contenedor-Home {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-Carousel {
+    border-color: black;
+    border-width: 2px;
+    margin: 10px;
+    height: 250px;
+    width: 900px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+    background-color: bisque;
+}
+
+.contenedor-Home2 {
+    margin: 10px;
+    min-height: 400px;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-Filtros {
+    border-color: black;
+    border-width: 2px;
+    margin: 10px;
+    width: 350px;
+}
+
+.contenedor-Home3 {
+    margin: 10px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contenedor-Cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.contenedor-Paginado {
+    border-color: black;
+    border-width: 2px;
+    margin: 10px;
+    height: 30px;
+    text-align: center;
+}

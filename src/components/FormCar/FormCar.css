@@ -1,0 +1,104 @@
+.main-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1200px;
+    flex-direction: column;
+    
+}
+
+.group {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: solid black;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px gray;
+    width: 50%;
+    
+}
+
+.tittle{
+    font-size: 50px;
+}
+
+.group p {
+    font-size: 10px;
+    color: red;
+}
+
+.input-form {
+    width: 800px;
+    height: 44px;
+    background-color: #05060f0a;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    -webkit-transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  .label-form {
+    margin-top: 10px;
+    display: block;
+    margin-bottom: .3rem;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #05060f99;
+    -webkit-transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  .input-form:hover, .input-form:focus, .input-group:hover .input-form {
+    outline: none;
+    border-color: #05060f;
+  }
+  
+  .input-group:hover .label, .input:focus {
+    color: #05060fc2;
+  }
+
+  .button-form {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    -webkit-transition: all 250ms;
+    transition: all 250ms;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-left: 200px;
+    margin-bottom: 15px;
+   }
+   
+   .button-form::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    -webkit-transition: all 250ms;
+    transition: all 250ms
+   }
+   
+   .button-form:hover {
+    color: #e8e8e8;
+   }
+   
+   .button-form:hover::before {
+    width: 100%;
+   }
